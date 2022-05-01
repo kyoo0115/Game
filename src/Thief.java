@@ -6,11 +6,11 @@ public class Thief extends Novice implements Skill{
 
     @Override
     public void attack() {
-        System.err.println("치명적인 공격");;
+        System.err.println("치명적인 공격");
     }
 
     @Override
     public void skill() {
-        System.err.println("중독");;
+        System.err.println("중독");
     }
 }

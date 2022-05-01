@@ -6,11 +6,11 @@ public class Magician extends Novice implements Skill{
 
     @Override
     public void attack() {
-        System.err.println("매직 애로우 공격");;
+        System.err.println("매직 애로우 공격");
     }
 
     @Override
     public void skill() {
-        System.err.println("메테오");;
+        System.err.println("메테오");
     }
 }
